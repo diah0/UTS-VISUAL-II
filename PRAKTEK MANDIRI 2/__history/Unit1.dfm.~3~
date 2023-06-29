@@ -1,0 +1,264 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'LATIHAN 02 KONDISIONAL'
+  ClientHeight = 289
+  ClientWidth = 508
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 113
+    Width = 88
+    Height = 13
+    Caption = 'NILAI KEHADIRAN'
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 140
+    Width = 63
+    Height = 13
+    Caption = 'NILAI TUGAS'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 167
+    Width = 49
+    Height = 13
+    Caption = 'NILAI UTS'
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 194
+    Width = 69
+    Height = 13
+    Caption = 'NILAI HARIAN'
+  end
+  object Label5: TLabel
+    Left = 8
+    Top = 221
+    Width = 50
+    Height = 13
+    Caption = 'NILAI UAS'
+  end
+  object Label6: TLabel
+    Left = 358
+    Top = 113
+    Width = 32
+    Height = 13
+    Caption = 'TOTAL'
+  end
+  object Label7: TLabel
+    Left = 358
+    Top = 140
+    Width = 34
+    Height = 13
+    Caption = 'GRADE'
+  end
+  object Label8: TLabel
+    Left = 358
+    Top = 167
+    Width = 21
+    Height = 13
+    Caption = 'KEL.'
+  end
+  object Label9: TLabel
+    Left = 320
+    Top = 115
+    Width = 11
+    Height = 13
+    Caption = '%'
+  end
+  object Label10: TLabel
+    Left = 321
+    Top = 141
+    Width = 11
+    Height = 13
+    Caption = '%'
+  end
+  object Label11: TLabel
+    Left = 321
+    Top = 168
+    Width = 11
+    Height = 13
+    Caption = '%'
+  end
+  object Label12: TLabel
+    Left = 321
+    Top = 196
+    Width = 11
+    Height = 13
+    Caption = '%'
+  end
+  object Label13: TLabel
+    Left = 321
+    Top = 222
+    Width = 11
+    Height = 13
+    Caption = '%'
+  end
+  object Edit1: TEdit
+    Left = 116
+    Top = 110
+    Width = 105
+    Height = 21
+    TabOrder = 0
+    Text = '0'
+  end
+  object Panel1: TPanel
+    Left = 8
+    Top = 8
+    Width = 492
+    Height = 57
+    Caption = 'CEK NILAI BOBOT SISWA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Panel2: TPanel
+    Left = 116
+    Top = 80
+    Width = 105
+    Height = 24
+    Caption = 'NILAI'
+    TabOrder = 2
+  end
+  object Panel3: TPanel
+    Left = 227
+    Top = 80
+    Width = 105
+    Height = 24
+    Caption = 'BOBOT'
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 227
+    Top = 110
+    Width = 86
+    Height = 21
+    TabOrder = 4
+    Text = '0'
+  end
+  object Edit3: TEdit
+    Left = 116
+    Top = 137
+    Width = 105
+    Height = 21
+    TabOrder = 5
+    Text = '0'
+  end
+  object Edit4: TEdit
+    Left = 227
+    Top = 137
+    Width = 86
+    Height = 21
+    TabOrder = 6
+    Text = '0'
+  end
+  object Edit5: TEdit
+    Left = 116
+    Top = 164
+    Width = 105
+    Height = 21
+    TabOrder = 7
+    Text = '0'
+  end
+  object Edit6: TEdit
+    Left = 227
+    Top = 164
+    Width = 86
+    Height = 21
+    TabOrder = 8
+    Text = '0'
+  end
+  object Edit7: TEdit
+    Left = 116
+    Top = 191
+    Width = 105
+    Height = 21
+    TabOrder = 9
+    Text = '0'
+  end
+  object Edit8: TEdit
+    Left = 227
+    Top = 191
+    Width = 86
+    Height = 21
+    TabOrder = 10
+    Text = '0'
+  end
+  object Edit9: TEdit
+    Left = 116
+    Top = 218
+    Width = 105
+    Height = 21
+    TabOrder = 11
+    Text = '0'
+  end
+  object Edit10: TEdit
+    Left = 227
+    Top = 218
+    Width = 86
+    Height = 21
+    TabOrder = 12
+    Text = '0'
+  end
+  object Edit11: TEdit
+    Left = 408
+    Top = 110
+    Width = 84
+    Height = 21
+    TabOrder = 13
+    Text = '0'
+  end
+  object Edit12: TEdit
+    Left = 408
+    Top = 137
+    Width = 84
+    Height = 21
+    TabOrder = 14
+  end
+  object Edit13: TEdit
+    Left = 408
+    Top = 164
+    Width = 84
+    Height = 21
+    TabOrder = 15
+  end
+  object Button1: TButton
+    Left = 116
+    Top = 245
+    Width = 105
+    Height = 28
+    Caption = 'HITUNG'
+    TabOrder = 16
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 227
+    Top = 245
+    Width = 105
+    Height = 28
+    Caption = 'HAPUS'
+    TabOrder = 17
+  end
+  object Button3: TButton
+    Left = 387
+    Top = 245
+    Width = 105
+    Height = 28
+    Caption = 'KELUAR'
+    TabOrder = 18
+  end
+end
